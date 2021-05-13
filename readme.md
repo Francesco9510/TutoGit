@@ -43,3 +43,19 @@ git checkput <hash>>
 ## --oneline pour afficher un commit par ligne
 git log --oneline
 ```
+
+# Branche
+
+## Pour créer une nouvelle branche
+
+```bash
+git branch <nomDeBranche>
+## Pour voir toutes les branches
+git branch
+```
+
+## Pour pointer vers une branche
+
+```bash
+git checkout <nomDeBranche>
+```
